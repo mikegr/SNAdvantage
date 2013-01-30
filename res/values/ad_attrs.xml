@@ -1,0 +1,47 @@
+<resources>
+    <!-- ADvantage attributes: used for the ADvantage tag -->
+    <!-- Important note: do never change these items! Neither content, nor even their order! -->
+	<declare-styleable name="ADvantage">
+		<attr name="appIdentifier" format="string" />
+		<attr name="siteIdentifier" format="string" />
+		<attr name="portraitPositionname" format="string" />
+		<attr name="landscapePositionname" format="string" />
+		<attr name="portraitWidth" format="dimension|string" >
+			<enum name="fill_parent" value="-1" />
+			<enum name="match_parent" value="-1" />
+			<enum name="fill_advantage" value="-1" />
+			<enum name="wrap_content" value="-2" />
+		</attr>
+		<attr name="portraitHeight" format="dimension|string" >
+			<enum name="fill_parent" value="-1" />
+			<enum name="match_parent" value="-1" />
+			<enum name="fill_advantage" value="-1" />
+			<enum name="wrap_content" value="-2" />
+		</attr>
+		<attr name="landscapeWidth" format="dimension|string" >
+			<enum name="fill_parent" value="-1" />
+			<enum name="match_parent" value="-1" />
+			<enum name="fill_advantage" value="-1" />
+			<enum name="wrap_content" value="-2" />
+		</attr>
+		<attr name="landscapeHeight" format="dimension|string" >
+			<enum name="fill_parent" value="-1" />
+			<enum name="match_parent" value="-1" />
+			<enum name="fill_advantage" value="-1" />
+			<enum name="wrap_content" value="-2" />
+		</attr>
+		<attr name="closeAfter" format="integer" />
+		<attr name="keepViewOnNoContent" format="boolean" />
+		<attr name="webViewBackgroundColor" format="color" />
+		<attr name="hasAdserverParameters" format="boolean" />
+		<attr name="useUdid" format="boolean" />
+		<attr name="useLine1Number" format="boolean" />
+		<attr name="useNetworkType" format="boolean" />
+		<attr name="useSimCountryIso" format="boolean" />
+		<attr name="useSimOperator" format="boolean" />
+		<attr name="useSimOperatorName" format="boolean" />
+		<attr name="useSimSerialNumber" format="boolean" />
+		<attr name="useSubscriberId" format="boolean" />
+		<attr name="useIsRoaming" format="boolean" />
+	</declare-styleable>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BannerSizes>
+	<!-- Note: all sizes are in pixels (px) or "fill_advantage" -->
+	
+	
+	<BannerSize name="x01" width="320" height="50"/>
+	<BannerSize name="x02" width="320" height="50"/>
+	<BannerSize name="x03" width="240" height="400"/>
+	<BannerSize name="x04" width="336" height="280"/>
+	<BannerSize name="x05" width="180" height="150"/>
+	<BannerSize name="x06" width="300" height="100"/>
+	<BannerSize name="x07" width="720" height="300"/>
+	<BannerSize name="x08" width="468" height="60"/>
+	<BannerSize name="x09" width="234" height="60"/>
+	<BannerSize name="x10" width="88" height="31"/>
+	<BannerSize name="x11" width="120" height="90"/>
+	<BannerSize name="x12" width="120" height="60"/>
+	<BannerSize name="x13" width="120" height="240"/>
+	<BannerSize name="x14" width="125" height="125"/>
+	<BannerSize name="x15" width="728" height="90"/>
+	<BannerSize name="x16" width="160" height="600"/>
+	<BannerSize name="x17" width="120" height="600"/>
+	<BannerSize name="x18" width="300" height="600"/>
+	<BannerSize name="x19" width="425" height="600"/>
+	<BannerSize name="x20" width="425" height="500"/>
+	<BannerSize name="x21" width="425" height="425"/>
+	<BannerSize name="x22" width="300" height="600"/>
+	<BannerSize name="x23" width="320" height="75"/>
+	<BannerSize name="x24" width="480" height="32"/>
+	<BannerSize name="x25" width="320" height="50"/>
+	<BannerSize name="x26" width="300" height="75"/>
+	<BannerSize name="x27" width="300" height="50"/>
+	<BannerSize name="x28" width="300" height="64"/>
+	
+	<BannerSize name="Presplit1" width="fill_advantage" height="fill_advantage"/>
+	<BannerSize name="Overlay1" width="fill_advantage" height="fill_advantage"></BannerSize>
+	
+</BannerSizes>

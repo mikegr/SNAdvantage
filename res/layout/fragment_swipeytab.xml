@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:advantage="http://schemas.android.com/apk/res/com.tailoredapps.advantage"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <WebView
+            android:id="@+id/webview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+    <net.advantage.ADvantage
+        android:id="@+id/sticky_banner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        advantage:appIdentifier="@string/adverserve_app_id"
+        advantage:hasAdserverParameters="false"
+        advantage:portraitHeight="50dp"
+        advantage:portraitPositionname="Bottom"
+        advantage:portraitWidth="320dp"
+        advantage:siteIdentifier="NOT_SET"
+        android:gravity="center_horizontal" />
+
+</LinearLayout>

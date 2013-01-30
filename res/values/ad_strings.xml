@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ADvantage strings -->
+    <string name="video_close">Schließen</string>
+    <string name="loading">Loading &#8756;</string>
+</resources>
